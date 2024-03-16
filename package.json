@@ -1,0 +1,34 @@
+{
+	"$scheme": "https://json.schemastore.org/package.json",
+	"name": "rozdzial1",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint --fix --dir src"
+	},
+	"dependencies": {
+		"next": "13.5.6",
+		"react": "^18",
+		"react-dom": "^18"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"@typescript-eslint/eslint-plugin": "^7.2.0",
+		"@typescript-eslint/parser": "^7.2.0",
+		"autoprefixer": "^10",
+		"eslint": "^8",
+		"eslint-config-next": "13.5.6",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-import": "^2.29.1",
+		"postcss": "^8",
+		"prettier": "^3.2.5",
+		"prettier-plugin-tailwindcss": "^0.5.12",
+		"tailwindcss": "^3",
+		"typescript": "^5"
+	}
+}
