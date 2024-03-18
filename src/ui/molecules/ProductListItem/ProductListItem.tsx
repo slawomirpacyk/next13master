@@ -8,9 +8,9 @@ type ProductListItemProps = {
 
 export const ProductListItem = ({ product }: ProductListItemProps) => {
 	return (
-		<div className="mx-auto w-full max-w-sm overflow-hidden rounded-md shadow-md">
+		<li className="mx-auto w-full max-w-sm overflow-hidden rounded-md shadow-md">
 			<ProductImage src={product.coverImage.src} alt={product.coverImage.alt} />
 			<ProductInfo product={product} />
-		</div>
+		</li>
 	);
 };
