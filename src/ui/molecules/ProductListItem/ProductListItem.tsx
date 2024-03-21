@@ -10,7 +10,7 @@ type ProductListItemProps = {
 export const ProductListItem = ({ product }: ProductListItemProps) => {
 	return (
 		<li className="mx-auto w-full max-w-sm overflow-hidden rounded-md shadow-md">
-			<Link href={`product/${product.id}`}>
+			<Link href={`/product/${product.id}`}>
 				<ProductImage src={product.coverImage.src} alt={product.coverImage.alt} />
 				<ProductInfo product={product} />
 			</Link>
