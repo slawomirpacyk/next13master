@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 							<NavLink href="/">Home</NavLink>
 						</li>
 						<li>
-							<NavLink href="/products">Products</NavLink>
+							<NavLink href="/products">All</NavLink>
 						</li>
 					</ul>
 				</nav>

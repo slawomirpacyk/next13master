@@ -7,4 +7,5 @@ export type ProductListItemTypes = {
 		src: string;
 		alt: string;
 	};
+	description: string;
 };

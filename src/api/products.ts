@@ -37,5 +37,6 @@ const productResponseItemToProductItemType = (
 		name: product.title,
 		price: product.price,
 		coverImage: { src: product.image, alt: product.description },
+		description: product.description,
 	};
 };
